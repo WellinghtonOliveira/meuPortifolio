@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wellinghton Oliveira | Backend Developer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #0a0a0a;
+      color: #f4f4f5;
+      font-family: 'Inter', sans-serif;
+    }
+
+    .glass-card {
+      background: rgba(23, 23, 23, 0.6);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      transition: all 0.3s ease;
+    }
+
+    .glass-card:hover {
+      border-color: rgba(59, 130, 246, 0.5);
+      background: rgba(30, 30, 30, 0.8);
+    }
+
+    .text-gradient {
+      background: linear-gradient(to right, #fff, #a1a1aa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+</head>
+
+<body class="selection:bg-blue-500/30">
+
+  <nav class="fixed w-full z-50 top-0 border-b border-white/5 bg-black/50 backdrop-blur-md">
+    <div class="max-w-6xl mx-auto px-6 h-16 flex justify-between items-center">
+      <span class="font-bold tracking-tighter text-xl">WO<span class="text-blue-500">.</span></span>
+      <div class="hidden md:flex space-x-8 text-xs font-medium uppercase tracking-widest text-zinc-400">
+        <a href="#about" class="hover:text-white transition">Sobre</a>
+        <a href="#production" class="hover:text-white transition">Em Produção</a>
+        <a href="#projects" class="hover:text-white transition">Engenharia</a>
+        <a href="https://www.linkedin.com/in/wellinghtonoliveira" target="_blank" class="text-blue-400">Contato</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="pt-40 pb-20 px-6 max-w-6xl mx-auto">
+    <div class="max-w-3xl">
+      <h1 class="text-5xl md:text-7xl font-extrabold mb-6 text-gradient">Wellinghton Oliveira</h1>
+      <p class="text-xl text-zinc-400 leading-relaxed mb-8">
+        Desenvolvedor Backend em formação, com experiência prática em <span class="text-zinc-200">resolução de problemas e lógica aplicada</span>, atuando no desenvolvimento de soluções em Java e Python.
+      </p>
+      <div class="flex flex-wrap gap-4">
+        <span class="px-4 py-2 rounded-full border border-white/10 text-xs font-mono">Java Fundamentals</span>
+        <span class="px-4 py-2 rounded-full border border-white/10 text-xs font-mono">Problem Solving</span>
+        <span class="px-4 py-2 rounded-full border border-white/10 text-xs font-mono">Data Structures (Basics)</span>
+        <span class="px-4 py-2 rounded-full border border-white/10 text-xs font-mono">Logic Development</span>
+        <span class="px-4 py-2 rounded-full border border-white/10 text-xs font-mono">Backend Fundamentals</span>
+        <span class="px-4 py-2 rounded-full border border-white/10 text-xs font-mono">API Development</span>
+        <span class="px-4 py-2 rounded-full border border-white/10 text-xs font-mono">HTTP Requests</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="production" class="py-20 px-6 max-w-6xl mx-auto">
+    <h2 class="text-xs uppercase tracking-[0.3em] text-blue-500 font-bold mb-10">Live Systems / Domínios</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <a href="https://convertil.com/" target="_blank" class="glass-card p-8 rounded-lg group">
+        <div class="flex justify-between items-start mb-4">
+          <h3 class="text-2xl font-bold italic tracking-tight">Convertil</h3>
+          <div class="h-2 w-2 rounded-full bg-green-500 animate-pulse"></div>
+        </div>
+        <p class="text-zinc-400 text-sm mb-4">Plataforma com múltiplas ferramentas online, incluindo conversão de dados, processamento em tempo real e integração de funcionalidades via backend próprio.</p>
+        <p class="text-xs text-zinc-500 mt-2">
+          Backend desenvolvido integralmente por mim
+        </p>
+        <span class="text-blue-400 text-xs group-hover:underline">Acessar sistema &rarr;</span>
+      </a>
+
+      <a href="https://saibaki.online/" target="_blank" class="glass-card p-8 rounded-lg group">
+        <div class="flex justify-between items-start mb-4">
+          <h3 class="text-2xl font-bold italic tracking-tight">SaibaKi</h3>
+          <div class="h-2 w-2 rounded-full bg-green-500 animate-pulse"></div>
+        </div>
+        <p class="text-zinc-400 text-sm mb-4">O aprendizado contínuo é a chave para o crescimento pessoal e profissional em um mundo em constante transformação.</p>
+        <p class="text-xs text-zinc-500 mt-2">
+          Backend desenvolvido integralmente por mim
+        </p>
+        <span class="text-blue-400 text-xs group-hover:underline">Acessar sistema &rarr;</span>
+      </a>
+
+      <a href="https://notacheck-nfe.online/" target="_blank" class="glass-card p-8 rounded-lg group">
+        <div class="flex justify-between items-start mb-4">
+          <h3 class="text-2xl font-bold italic tracking-tight">NotaCheck</h3>
+          <div class="h-2 w-2 rounded-full bg-green-500 animate-pulse"></div>
+        </div>
+        <p class="text-zinc-400 text-sm mb-4">Transmita autoridade para seus clientes com um documento jurídico personalizado para MEI e Freelancers.</p>
+        <p class="text-xs text-zinc-500 mt-2">
+          Backend desenvolvido integralmente por mim
+        </p>
+        <span class="text-blue-400 text-xs group-hover:underline">Acessar sistema &rarr;</span>
+      </a>
+
+      <a href="https://mp3link.onrender.com/" target="_blank" class="glass-card p-8 rounded-lg group">
+        <div class="flex justify-between items-start mb-4">
+          <h3 class="text-2xl font-bold italic tracking-tight">MP3Downloader</h3>
+          <div class="h-2 w-2 rounded-full bg-green-500 animate-pulse"></div>
+        </div>
+        <p class="text-zinc-400 text-sm mb-4">Cole o link do vídeo abaixo e baixe o áudio em alta qualidade</p>
+        <p class="text-xs text-zinc-500 mt-2">
+          Backend desenvolvido integralmente por mim
+        </p>
+        <span class="text-blue-400 text-xs group-hover:underline">Acessar sistema &rarr;</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="about" class="py-20 px-6 max-w-6xl mx-auto">
+    <h2 class="text-xs text-center uppercase tracking-[0.3em] text-blue-500 font-bold mb-10">
+      Sobre
+    </h2>
+
+    <div class="max-w-3xl mx-auto text-center">
+      <p class="text-zinc-400 leading-relaxed mb-6">
+        Desenvolvedor Backend em formação, com foco em lógica de programação, desenvolvimento de APIs e construção de sistemas orientados a dados.
+      </p>
+
+      <p class="text-zinc-400 leading-relaxed mb-6">
+        Possuo experiência prática no desenvolvimento de aplicações completas, atuando na criação de endpoints, processamento e validação de dados, além da integração de múltiplas funcionalidades em um único sistema.
+      </p>
+
+      <p class="text-zinc-400 leading-relaxed">
+        Já desenvolvi e publiquei aplicações web com domínio próprio, sendo responsável por todo o backend, desde a implementação da lógica até o deploy e configuração em ambiente de produção.
+      </p>
+
+      <p class="text-zinc-500 text-sm mt-6">
+        Focado em evolução contínua, com interesse em construir soluções cada vez mais robustas, escaláveis e bem estruturadas.
+      </p>
+    </div>
+  </section>
+
+  <section id="projects" class="py-20 px-6 max-w-6xl mx-auto">
+    <h2 class="text-xs uppercase tracking-[0.3em] text-blue-500 font-bold mb-10">Core Engineering</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+      <div class="glass-card p-6 rounded-lg">
+        <h3 class="font-bold text-lg mb-2">ConvertiTools Backend</h3>
+        <h4 class="text-xs text-blue-400 font-mono mb-2">API & System Architecture</h4>
+        <p class="text-sm text-zinc-400 mb-4">
+          Desenvolvimento completo do backend de uma plataforma com múltiplas ferramentas online, incluindo criação de endpoints, processamento de dados, integração de funcionalidades e organização do sistema.
+        </p>
+      </div>
+
+      <div class="glass-card p-6 rounded-lg">
+        <h3 class="font-bold text-lg mb-2">System Integration</h3>
+        <h4 class="text-xs text-blue-400 font-mono mb-2">Feature Coordination</h4>
+        <p class="text-sm text-zinc-400 mb-4">
+          Integração e organização de múltiplas funcionalidades dentro de uma única aplicação, garantindo funcionamento consistente entre os módulos.
+        </p>
+      </div>
+
+      <div class="glass-card p-6 rounded-lg">
+        <h3 class="font-bold text-lg mb-2">Deployment & Domain Setup</h3>
+        <h4 class="text-xs text-blue-400 font-mono mb-2">DNS Configuration</h4>
+        <p class="text-sm text-zinc-400 mb-4">
+          Configuração de deploy da aplicação e gerenciamento de domínio, incluindo ajustes de DNS para disponibilização do sistema na web.
+        </p>
+      </div>
+
+      <div class="glass-card p-6 rounded-lg">
+        <h3 class="font-bold text-lg mb-2">Data Processing</h3>
+        <h4 class="text-xs text-blue-400 font-mono mb-2">Real-time Data Handling</h4>
+        <p class="text-sm text-zinc-400 mb-4">
+          Implementação de lógica para processamento, conversão e validação de dados em tempo real dentro de múltiplas ferramentas do sistema.
+        </p>
+      </div>
+
+      <div class="glass-card p-6 rounded-lg">
+        <h3 class="font-bold text-lg mb-2">API Development</h3>
+        <h4 class="text-xs text-blue-400 font-mono mb-2">Endpoints & Requests Handling</h4>
+        <p class="text-sm text-zinc-400 mb-4">
+          Estruturação e implementação de endpoints para comunicação entre cliente e servidor, incluindo tratamento de requisições e organização das rotas da aplicação.
+        </p>
+      </div>
+
+      <div class="glass-card p-6 rounded-lg">
+        <h3 class="font-bold text-lg mb-2">Grid Navigation Logic</h3>
+        <p class="text-sm text-zinc-400 mb-4">Desenvolvimento de lógica para tomada de decisão em ambientes matriciais e gerenciamento de estados complexos.</p>
+        <div class="flex gap-2 opacity-50 font-mono text-[10px]">
+          <span>Logic</span><span>Decision-Making</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <p class="text-sm text-zinc-400 my-6 text-center font-medium tracking-wide">
+    Quem constrói, evolui. Quem espera, assiste.
+  </p>
+
+  <footer class="border-t border-white/5 py-12 px-6 text-center text-zinc-600">
+    <p class="text-xs tracking-widest font-mono uppercase">Crafted for Performance • 2026</p>
+  </footer>
+
+</body>
+
+</html>
