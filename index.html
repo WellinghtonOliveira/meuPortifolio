@@ -40,10 +40,12 @@
   <nav class="fixed w-full z-50 top-0 border-b border-white/5 bg-black/50 backdrop-blur-md">
     <div class="max-w-6xl mx-auto px-6 h-16 flex justify-between items-center">
       <span class="font-bold tracking-tighter text-xl">WO<span class="text-blue-500">.</span></span>
-      <div class="hidden md:flex space-x-8 text-xs font-medium uppercase tracking-widest text-zinc-400">
+      <div class="hidden md:flex space-x-8 text-xs font-medium uppercase tracking-widest text-zinc-400 items-center">
         <a href="#about" class="hover:text-white transition">Sobre</a>
+        <a href="#experience" class="hover:text-white transition">Currículo</a>
         <a href="#production" class="hover:text-white transition">Em Produção</a>
         <a href="#projects" class="hover:text-white transition">Engenharia</a>
+        <a href="./Wellinghton_Oliveira.pdf" download class="px-3 py-1.5 rounded border border-blue-500/30 text-blue-400 hover:bg-blue-500/10 transition normal-case tracking-normal">Baixar CV (PDF)</a>
         <a href="https://www.linkedin.com/in/wellinghtonoliveira" target="_blank" class="text-blue-400">Contato</a>
       </div>
     </div>
@@ -53,21 +55,103 @@
     <div class="max-w-3xl">
       <h1 class="text-5xl md:text-7xl font-extrabold mb-6 text-gradient">Wellinghton Oliveira</h1>
       <p class="text-xl text-zinc-400 leading-relaxed mb-8">
-        Desenvolvedor Backend em formação, com experiência prática em <span class="text-zinc-200">resolução de problemas e lógica aplicada</span>, atuando no desenvolvimento de soluções em Java e Python.
+        Desenvolvedor Backend em formação com foco em <span class="text-zinc-200">Java, Spring Boot e integração de sistemas</span>. Experiência prática na criação de APIs REST e soluções robustas orientadas a dados.
       </p>
-      <div class="flex flex-wrap gap-4">
-        <span class="px-4 py-2 rounded-full border border-white/10 text-xs font-mono">Java Fundamentals</span>
-        <span class="px-4 py-2 rounded-full border border-white/10 text-xs font-mono">Problem Solving</span>
-        <span class="px-4 py-2 rounded-full border border-white/10 text-xs font-mono">Data Structures (Basics)</span>
-        <span class="px-4 py-2 rounded-full border border-white/10 text-xs font-mono">Logic Development</span>
-        <span class="px-4 py-2 rounded-full border border-white/10 text-xs font-mono">Backend Fundamentals</span>
-        <span class="px-4 py-2 rounded-full border border-white/10 text-xs font-mono">API Development</span>
-        <span class="px-4 py-2 rounded-full border border-white/10 text-xs font-mono">HTTP Requests</span>
+      <div class="flex flex-wrap gap-4 mb-8">
+        <span class="px-4 py-2 rounded-full border border-white/10 text-xs font-mono">Java / Spring Boot</span>
+        <span class="px-4 py-2 rounded-full border border-white/10 text-xs font-mono">Node.js / Express</span>
+        <span class="px-4 py-2 rounded-full border border-white/10 text-xs font-mono">PostgreSQL & MongoDB</span>
+        <span class="px-4 py-2 rounded-full border border-white/10 text-xs font-mono">Estrutura de Dados</span>
+        <span class="px-4 py-2 rounded-full border border-white/10 text-xs font-mono">APIs REST</span>
+        <span class="px-4 py-2 rounded-full border border-white/10 text-xs font-mono">Clean Code & SOLID</span>
+      </div>
+      
+      <a href="./Wellinghton_Oliveira.pdf" download class="inline-flex items-center gap-2 px-5 py-2.5 rounded bg-zinc-900 border border-white/10 text-sm font-medium text-zinc-200 hover:border-blue-500/50 transition">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+        </svg>
+        Download Currículo (PDF)
+      </a>
+    </div>
+  </section>
+
+  <section id="about" class="py-20 px-6 max-w-6xl mx-auto">
+    <h2 class="text-xs text-center uppercase tracking-[0.3em] text-blue-500 font-bold mb-10">
+      Sobre
+    </h2>
+
+    <div class="max-w-3xl mx-auto text-center">
+      <p class="text-zinc-400 leading-relaxed mb-6">
+        Desenvolvedor Backend em formação com foco em Java, Spring Boot e integração de sistemas. Experiência prática no desenvolvimento de APIs REST, aplicações em produção e projetos com regras de negócio voltadas à área financeira.
+      </p>
+
+      <p class="text-zinc-400 leading-relaxed mb-6">
+        Conhecimento em bancos de dados relacionais e NoSQL, orientação a objetos (OOP), protocolos HTTP, JSON e boas práticas de desenvolvimento como SOLID e Clean Code. Vivência em testes, validação de funcionalidades, depuração e resolução de problemas em ambiente real.
+      </p>
+
+      <p class="text-zinc-500 text-sm mt-6">
+        Focado em evolução contínua, com perfil colaborativo, autodidata e orientado a construir soluções cada vez mais robustas e escaláveis.
+      </p>
+    </div>
+  </section>
+
+  <section id="experience" class="py-20 px-6 max-w-6xl mx-auto border-t border-white/5">
+    <h2 class="text-xs uppercase tracking-[0.3em] text-blue-500 font-bold mb-12">Trajetória Profissional & Educação</h2>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+      <div>
+        <h3 class="text-lg font-semibold text-zinc-200 mb-6 flex items-center gap-2">
+          <span class="h-1.5 w-1.5 rounded-full bg-blue-500"></span> Experiência Profissional
+        </h3>
+        
+        <div class="space-y-8 border-l border-white/5 pl-4 ml-1">
+          <div class="relative">
+            <div class="absolute -left-[21px] top-1.5 h-2. w-2 rounded-full bg-blue-500 border border-black"></div>
+            <span class="text-xs font-mono text-zinc-500">2025 - Atual</span>
+            <h4 class="text-base font-bold text-zinc-300 mt-1">Estagiário de TI</h4>
+            <p class="text-xs text-blue-400 font-medium mb-2">Prefeitura Municipal</p>
+            <p class="text-sm text-zinc-400">Suporte técnico e resolução de problemas em ambiente corporativo, atuando no diagnóstico de falhas, atendimento a usuários e manutenção da operação de sistemas.</p>
+          </div>
+
+          <div class="relative">
+            <div class="absolute -left-[21px] top-1.5 h-2 w-2 rounded-full bg-zinc-700 border border-black"></div>
+            <span class="text-xs font-mono text-zinc-500">2023 - 2025</span>
+            <h4 class="text-base font-bold text-zinc-300 mt-1">Operador de Máquina</h4>
+            <p class="text-xs text-zinc-500 font-medium mb-2">Amifec Alimentos</p>
+            <p class="text-sm text-zinc-400">Operação de máquinas industriais com foco em produtividade e cumprimento estrito de metas de qualidade.</p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="text-lg font-semibold text-zinc-200 mb-6 flex items-center gap-2">
+          <span class="h-1.5 w-1.5 rounded-full bg-blue-500"></span> Formação acadêmica & Cursos
+        </h3>
+        
+        <div class="space-y-6">
+          <div class="p-4 rounded border border-white/5 bg-zinc-900/30">
+            <span class="text-xs font-mono text-blue-400">2024 - Cursando</span>
+            <h4 class="text-sm font-bold text-zinc-300 mt-1">Análise e Desenvolvimento de Sistemas</h4>
+            <p class="text-xs text-zinc-500">UNIPAR - Universidade Paranaense</p>
+          </div>
+
+          <div class="p-4 rounded border border-white/5 bg-zinc-900/30">
+            <span class="text-xs font-mono text-zinc-500">2026</span>
+            <h4 class="text-sm font-bold text-zinc-300 mt-1">Spring Framework Experience</h4>
+            <p class="text-xs text-zinc-500">DIO (Digital Innovation One)</p>
+          </div>
+
+          <div class="p-4 rounded border border-white/5 bg-zinc-900/30">
+            <span class="text-xs font-mono text-zinc-500">2025</span>
+            <h4 class="text-sm font-bold text-zinc-300 mt-1">Desenvolvimento Backend, APIs, Algoritmos e Estrutura de Dados</h4>
+            <p class="text-xs text-zinc-500">FreeCodeCamp</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
-  <section id="production" class="py-20 px-6 max-w-6xl mx-auto">
+  <section id="production" class="py-20 px-6 max-w-6xl mx-auto border-t border-white/5">
     <h2 class="text-xs uppercase tracking-[0.3em] text-blue-500 font-bold mb-10">Live Systems / Domínios</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
       <a href="https://convertil.com/" target="_blank" class="glass-card p-8 rounded-lg group">
@@ -117,30 +201,6 @@
         </p>
         <span class="text-blue-400 text-xs group-hover:underline">Acessar sistema &rarr;</span>
       </a>
-    </div>
-  </section>
-
-  <section id="about" class="py-20 px-6 max-w-6xl mx-auto">
-    <h2 class="text-xs text-center uppercase tracking-[0.3em] text-blue-500 font-bold mb-10">
-      Sobre
-    </h2>
-
-    <div class="max-w-3xl mx-auto text-center">
-      <p class="text-zinc-400 leading-relaxed mb-6">
-        Desenvolvedor Backend em formação, com foco em lógica de programação, desenvolvimento de APIs e construção de sistemas orientados a dados.
-      </p>
-
-      <p class="text-zinc-400 leading-relaxed mb-6">
-        Possuo experiência prática no desenvolvimento de aplicações completas, atuando na criação de endpoints, processamento e validação de dados, além da integração de múltiplas funcionalidades em um único sistema.
-      </p>
-
-      <p class="text-zinc-400 leading-relaxed">
-        Já desenvolvi e publiquei aplicações web com domínio próprio, sendo responsável por todo o backend, desde a implementação da lógica até o deploy e configuração em ambiente de produção.
-      </p>
-
-      <p class="text-zinc-500 text-sm mt-6">
-        Focado em evolução contínua, com interesse em construir soluções cada vez mais robustas, escaláveis e bem estruturadas.
-      </p>
     </div>
   </section>
 
